@@ -532,9 +532,9 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|solovev_alexey|0.3380|5|
 |3822B1FI1|beskhmelnova_kseniya|0.3462|1|
 |3822B1FI3|lopatin_ilya|0.3551|3|
-|3822B1FI2|yasakova_tanya|0.3616|2|
 |3822B1FI1|chistov_alexey|0.3639|3|
 |3822B1FI1|drozhdinov_dmitriy|0.5052|2|
+|3822B1FI2|yasakova_tanya|BUILD FAILED|2|
 |3822B1FI1|shulpin_ilya|TEST FAILED|-|
 |3822B1FI1|mironov_arseniy|TEST FAILED|-|
 
@@ -568,12 +568,12 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|drozhdinov_dmitriy|0.3305|4|
 |3822B1FI1|solovev_alexey|0.3317|3|
 |3822B1FI1|beskhmelnova_kseniya|0.3483|2|
+|3822B1FI2|yasakova_tanya|0.3532|2|
 |3822B1FI3|lopatin_ilya|0.3664|3|
 |3822B1FI3|kolodkin_grigorii|0.4017|1|
 |3822B1FI3|frolova_elizaveta|0.4647|2|
 |3822B1FI1|shulpin_ilya|BUILD FAILED|-|
 |3822B1FI1|mironov_arseniy|BUILD FAILED|-|
-|3822B1FI2|yasakova_tanya|BUILD FAILED|-|
 
 ## 6_block_gemm_oneapi (3072 elements)
 |Group|Name|Result|Rank|
@@ -582,6 +582,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|frolova_elizaveta|0.8798|2|
 |3822B1FI1|beskhmelnova_kseniya|0.8884|1|
 |3822B1FI1|solovev_alexey|0.8935|3|
+|3822B1FI2|yasakova_tanya|0.8962|1|
 |3822B1FI3|lopatin_ilya|0.8981|3|
 |3822B1FI1|drozhdinov_dmitriy|0.9047|6|
 |3822B1FI1|shurigin_sergey|0.9134|4|
@@ -589,7 +590,6 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|chistov_alexey|0.9184|2|
 |3822B1FI3|kolodkin_grigorii|2.1427|1|
 |3822B1FI1|shulpin_ilya|3.5330|7|
-|3822B1FI2|yasakova_tanya|TOO SLOW|-|
 
 ## 7_mkl_gemm_oneapi (3072 elements)
 |Group|Name|Result|Rank|
@@ -597,6 +597,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|rezantseva_anastasia|0.4031|4|
 |3822B1FI1|beskhmelnova_kseniya|0.4091|2|
 |3822B1FI1|shulpin_ilya|0.4137|5|
+|3822B1FI2|yasakova_tanya|0.4255|1|
 |3822B1FI1|drozhdinov_dmitriy|0.4314|6|
 |3822B1FI3|lopatin_ilya|0.4338|3|
 |3822B1FI1|solovev_alexey|0.4340|3|
@@ -604,7 +605,6 @@ std::vector<float> JacobiKokkos(
 |**REF**|**REF**|**0.4392**|**-**|
 |3822B1FI3|kolodkin_grigorii|0.4450|1|
 |3822B1FI3|frolova_elizaveta|0.4468|2|
-|3822B1FI2|yasakova_tanya|TEST FAILED|-|
 
 ## 8_integral_kokkos (65536 elements)
 |Group|Name|Result|Rank|
@@ -654,7 +654,7 @@ Passed: 4
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
 |3822B1FI2|bessonov_egor|5/9|320|
-|3822B1FI2|yasakova_tanya|5/9|314|
+|3822B1FI2|yasakova_tanya|8/9|473|
 
 Passed: 0
 
