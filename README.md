@@ -522,14 +522,14 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|ionova_ekaterina|0.8475|9|
 |3822B1FI1|kabalova_valeria|0.8483|1|
 |3822B1FI3|lysov_ivan|0.8516|5|
-|3822B1FI2|guseynov_emil|0.9945|3|
 |3822B1FI3|lopatin_ilya|0.9945|1|
+|3822B1FI2|guseynov_emil|0.9945|3|
 |3822B1FI1|drozhdinov_dmitriy|0.9980|6|
 |3822B1FI3|ekaterina_kozlova|0.9980|6|
 |3822B1FI1|mironov_arseniy|0.9988|10|
 |3822B1FI2|khokhlov_andrey|0.9988|4|
-|3822B1FI2|bessonov_egor|1.0007|1|
 |3822B1FI3|kholin_kirill|1.0007|4|
+|3822B1FI2|bessonov_egor|1.0007|1|
 |3822B1FI1|grudzin_konstantin|1.0022|11|
 |3822B1FI3|chizhov_maxim|1.0034|7|
 |3822B1FI1|shulpin_ilya|1.0230|8|
@@ -538,6 +538,7 @@ std::vector<float> JacobiKokkos(
 ## 3_acc_jacobi_oneapi (4096 elements)
 |Group|Name|Result|Rank|
 |-----|----|------|----|
+|3822B1FI1|grudzin_konstantin|0.2468|9|
 |3822B1FI3|ekaterina_kozlova|0.2627|7|
 |3822B1FI2|khokhlov_andrey|0.2654|3|
 |3822B1FI1|shulpin_ilya|0.2705|7|
@@ -560,7 +561,6 @@ std::vector<float> JacobiKokkos(
 |3822B1FI1|drozhdinov_dmitriy|0.5052|2|
 |3822B1FI2|guseynov_emil|TOO SLOW|-|
 |3822B1FI1|mironov_arseniy|TEST FAILED|-|
-|3822B1FI1|grudzin_konstantin|BUILD FAILED|-|
 
 ## 4_dev_jacobi_oneapi (4096 elements)
 |Group|Name|Result|Rank|
@@ -710,17 +710,17 @@ std::vector<float> JacobiKokkos(
 ## 3822B1FI1
 |Group|Name|Passed|Score|
 |-----|----|------|-----|
-|3822B1FI1|beskhmelnova_kseniya|**9/9**|**532**|
-|3822B1FI1|chistov_alexey|**9/9**|**540**|
-|3822B1FI1|drozhdinov_dmitriy|**9/9**|**490**|
-|3822B1FI1|grudzin_konstantin|2/9|96|
-|3822B1FI1|ionova_ekaterina|**9/9**|**477**|
+|3822B1FI1|beskhmelnova_kseniya|**9/9**|**531**|
+|3822B1FI1|chistov_alexey|**9/9**|**539**|
+|3822B1FI1|drozhdinov_dmitriy|**9/9**|**489**|
+|3822B1FI1|grudzin_konstantin|3/9|152|
+|3822B1FI1|ionova_ekaterina|**9/9**|**476**|
 |3822B1FI1|kabalova_valeria|2/9|115|
 |3822B1FI1|mironov_arseniy|4/9|200|
-|3822B1FI1|rezantseva_anastasia|**9/9**|**520**|
-|3822B1FI1|shulpin_ilya|**9/9**|**492**|
-|3822B1FI1|shurigin_sergey|**9/9**|**501**|
-|3822B1FI1|solovev_alexey|**9/9**|**513**|
+|3822B1FI1|rezantseva_anastasia|**9/9**|**519**|
+|3822B1FI1|shulpin_ilya|**9/9**|**491**|
+|3822B1FI1|shurigin_sergey|**9/9**|**500**|
+|3822B1FI1|solovev_alexey|**9/9**|**512**|
 
 Passed: 8
 
