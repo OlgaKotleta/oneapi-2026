@@ -525,8 +525,8 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|lysov_ivan|0.8516|5|
 |3822B1FI3|lopatin_ilya|0.9945|1|
 |3822B1FI2|guseynov_emil|0.9945|3|
-|3822B1FI1|drozhdinov_dmitriy|0.9980|6|
 |3822B1FI3|ekaterina_kozlova|0.9980|6|
+|3822B1FI1|drozhdinov_dmitriy|0.9980|6|
 |3822B1FI1|mironov_arseniy|0.9988|10|
 |3822B1FI2|khokhlov_andrey|0.9988|4|
 |3822B1FI3|kholin_kirill|1.0007|4|
@@ -562,6 +562,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI2|sdobnov_vladimir|0.4597|4|
 |3822B1FI1|drozhdinov_dmitriy|0.5052|2|
 |3822B1FI1|mironov_arseniy|TEST FAILED|-|
+|3822B1FI3|sozonov_ilya|TEST FAILED|-|
 |3822B1FI2|guseynov_emil|TOO SLOW|-|
 
 ## 4_dev_jacobi_oneapi (4096 elements)
