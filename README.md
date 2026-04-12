@@ -653,6 +653,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|lysov_ivan|0.9502|6|
 |3822B1FI3|kolodkin_grigorii|2.1427|1|
 |3822B1FI1|shulpin_ilya|3.5330|7|
+|3822B1FI1|mironov_arseniy|BUILD FAILED|-|
 
 ## 7_mkl_gemm_oneapi (3072 elements)
 |Group|Name|Result|Rank|
@@ -679,6 +680,7 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|kholin_kirill|0.4514|6|
 |3822B1FI1|ionova_ekaterina|0.4525|8|
 |3822B1FI3|lysov_ivan|0.4583|5|
+|3822B1FI1|mironov_arseniy|BUILD FAILED|-|
 
 ## 8_integral_kokkos (65536 elements)
 |Group|Name|Result|Rank|
@@ -695,11 +697,11 @@ std::vector<float> JacobiKokkos(
 |3822B1FI3|frolova_elizaveta|2.2278|2|
 |3822B1FI3|kholin_kirill|2.3205|4|
 |3822B1FI3|kolodkin_grigorii|2.3206|1|
-|3822B1FI3|chizhov_maxim|2.3227|6|
 |3822B1FI2|khokhlov_andrey|2.3227|4|
+|3822B1FI3|chizhov_maxim|2.3227|6|
 |3822B1FI1|ionova_ekaterina|2.3228|6|
-|3822B1FI1|drozhdinov_dmitriy|2.3230|7|
 |3822B1FI2|bessonov_egor|2.3230|2|
+|3822B1FI1|drozhdinov_dmitriy|2.3230|7|
 |3822B1FI1|shulpin_ilya|2.9876|4|
 |3822B1FI2|guseynov_emil|2.9993|3|
 |3822B1FI1|kurakin_matvey|2.9994|9|

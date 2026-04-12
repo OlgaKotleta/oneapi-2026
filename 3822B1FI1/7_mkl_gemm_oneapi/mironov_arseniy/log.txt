@@ -1,0 +1,184 @@
+/home/crazyproger/sandbox/oneapi-2026/3822B1FI1/7_mkl_gemm_oneapi/mironov_arseniy/mkl_gemm_oneapi.cpp:15:3: error: no matching function for call to 'gemm'
+   15 |   oneapi::mkl::blas::gemm(gpu_queue, oneapi::mkl::layout::row_major,
+      |   ^~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:25:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   25 | ONEMKL_DECLARE_BUF_GEMM(float, float, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:26:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   26 | ONEMKL_DECLARE_BUF_GEMM(double, double, double, double)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:30:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   30 | ONEMKL_DECLARE_BUF_GEMM(sycl::half, sycl::half, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:31:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   31 | ONEMKL_DECLARE_BUF_GEMM(bfloat16, bfloat16, bfloat16, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:32:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   32 | ONEMKL_DECLARE_BUF_GEMM(bfloat16, bfloat16, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:33:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   33 | ONEMKL_DECLARE_BUF_GEMM(std::int8_t, std::int8_t, std::int32_t, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:34:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   34 | ONEMKL_DECLARE_BUF_GEMM(std::int8_t, std::int8_t, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:27:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   27 | ONEMKL_DECLARE_BUF_GEMM(std::complex<float>, std::complex<float>, std::complex<float>, std::complex<float>)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:28:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   28 | ONEMKL_DECLARE_BUF_GEMM(std::complex<double>, std::complex<double>, std::complex<double>, std::complex<double>)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:29:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   29 | ONEMKL_DECLARE_BUF_GEMM(sycl::half, sycl::half, sycl::half, sycl::half)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/buffer_decls.hpp:18:17: note: expanded from macro 'ONEMKL_DECLARE_BUF_GEMM'
+   18 | DLL_EXPORT void gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                 ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:38:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   38 | ONEMKL_DECLARE_GEMM(float, float, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:38:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   38 | ONEMKL_DECLARE_GEMM(float, float, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:39:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   39 | ONEMKL_DECLARE_GEMM(double, double, double, double)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:39:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   39 | ONEMKL_DECLARE_GEMM(double, double, double, double)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:40:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   40 | ONEMKL_DECLARE_GEMM(std::complex<float>, std::complex<float>, std::complex<float>, std::complex<float>)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:40:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   40 | ONEMKL_DECLARE_GEMM(std::complex<float>, std::complex<float>, std::complex<float>, std::complex<float>)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:41:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   41 | ONEMKL_DECLARE_GEMM(std::complex<double>, std::complex<double>, std::complex<double>, std::complex<double>)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:41:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   41 | ONEMKL_DECLARE_GEMM(std::complex<double>, std::complex<double>, std::complex<double>, std::complex<double>)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:42:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   42 | ONEMKL_DECLARE_GEMM(sycl::half, sycl::half, sycl::half, sycl::half)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:42:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   42 | ONEMKL_DECLARE_GEMM(sycl::half, sycl::half, sycl::half, sycl::half)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:43:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   43 | ONEMKL_DECLARE_GEMM(sycl::half, sycl::half, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:43:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   43 | ONEMKL_DECLARE_GEMM(sycl::half, sycl::half, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:44:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   44 | ONEMKL_DECLARE_GEMM(bfloat16, bfloat16, bfloat16, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:44:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   44 | ONEMKL_DECLARE_GEMM(bfloat16, bfloat16, bfloat16, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:45:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   45 | ONEMKL_DECLARE_GEMM(bfloat16, bfloat16, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:45:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   45 | ONEMKL_DECLARE_GEMM(bfloat16, bfloat16, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:46:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   46 | ONEMKL_DECLARE_GEMM(std::int8_t, std::int8_t, std::int32_t, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:46:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   46 | ONEMKL_DECLARE_GEMM(std::int8_t, std::int8_t, std::int32_t, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:47:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   47 | ONEMKL_DECLARE_GEMM(std::int8_t, std::int8_t, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:22:24: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   22 | DLL_EXPORT sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                        ^                        ~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:47:1: note: candidate function not viable: no known conversion from 'oneapi::mkl::layout' to 'transpose' for 2nd argument
+   47 | ONEMKL_DECLARE_GEMM(std::int8_t, std::int8_t, float, float)
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/intel/oneapi/mkl/2025.1/include/oneapi/mkl/blas/usm_decls.hpp:28:35: note: expanded from macro 'ONEMKL_DECLARE_GEMM'
+   28 | ONEMKL_INLINE_DECLARE sycl::event gemm(sycl::queue &queue, transpose transa, transpose transb, \
+      |                                   ^                        ~~~~~~~~~~~~~~~~
+1 error generated.
